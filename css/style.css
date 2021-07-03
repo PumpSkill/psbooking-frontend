@@ -1997,3 +1997,15 @@ ul.sidebar-category li:last-child {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.error {
+  background: #fff;
+  border-top: 1px solid #f1f1f1;
+}
+
+.error .error-content {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}

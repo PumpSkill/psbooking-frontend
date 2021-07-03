@@ -115,17 +115,21 @@
                             <div class="col-md-3">
                                 <h5>Дата заезда</h5>
                                 <h6 class="text-primary">01 января 2020</h6>
+<!--                                <h6 class="text-secondary">&#45;&#45;</h6>-->
                             </div>
                             <div class="col-md-3">
                                 <h5>Дата отъезда</h5>
                                 <h6 class="text-primary">11 января 2020</h6>
+<!--                                <h6 class="text-secondary">&#45;&#45;</h6>-->
                             </div>
                             <div class="col-md-3 text-center">
                                 <h5>Доступность</h5>
-                                <!-- available-->
+                                <!-- available -->
                                 <h6 class="text-success"><i class="bi bi-calendar-check me-2"></i>Есть места</h6>
-                                <!-- not available-->
-                                <!-- <h6 class="text-secondary"><i class="bi bi-calendar-x me-2"></i>Мест нет</h6>-->
+                                <!-- not available -->
+<!--                                 <h6 class="text-secondary"><i class="bi bi-calendar-x me-2"></i>Мест нет</h6>-->
+                                <!-- lack of information-->
+<!--                                <h6 class="text-secondary">Выберите даты</h6>-->
                             </div>
                         </div>
                     </div>
@@ -147,7 +151,7 @@
                                         </div>
                                         <div class="col-md-4 text-center">
                                             <p class="mb-1">3000.00 / ночь</p>
-                                            <a href="#" class="nir-btn w-100">Я бронирую</a>
+                                            <a href="booking_list.html" class="nir-btn w-100">Я бронирую</a>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +192,9 @@
                                         </div>
                                         <div class="col-md-4 text-center">
                                             <p class="mb-1">5000.00 / ночь</p>
-                                            <a href="#" class="nir-btn w-100">Я бронирую</a>
+                                            <a href="index.html" class="btn btn-outline-secondary">
+                                                Указать даты поездки
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +268,7 @@
                                 <input type="number" name="rate" class="form-control" required="" id="id_rate">
                                 <label for="id_text">Текст отзыва:</label>
                                 <textarea name="text" cols="40" rows="3" maxlength="500" class="form-control"
-                                          required="" id="id_text"></textarea>
+                                          id="id_text"></textarea>
                                 <button type="submit" class="btn btn-primary mt-3">Отправить отзыв</button>
                             </form>
                         </div>

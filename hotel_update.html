@@ -106,6 +106,27 @@
                                     <label for="id_category" class="form-label">Категория (звездность)</label>
                                     <input type="number" class="form-control" id="id_category">
                                 </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="id_recently_renovated">
+                                    <label class="form-check-label" for="id_recently_renovated">
+                                        Недавно отремонтирован
+                                    </label>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="id_services" class="form-label">Сервис</label>
+                                    <select class="form-select" multiple id="id_services">
+                                        <option value="1">Парковка</option>
+                                        <option value="2">Бесплатный Wi-Fi</option>
+                                        <option value="3">Бассейн</option>
+                                        <option value="4">Ресторан</option>
+                                        <option value="5">Фитнес-центр</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="id_description" class="form-label">Описание</label>
+                                    <textarea cols="40" rows="3" maxlength="500" class="form-control"
+                                              id="id_description"></textarea>
+                                </div>
                                 <div class="mb-3">
                                     <label for="country">Страна</label>
                                     <select id="country">
@@ -138,7 +159,7 @@
                 <div class="col-12">
                     <div class="card border-0 shadow-sm">
                         <div class="dashboard-title">
-                            <h4 class="mb-0">Номерной фонд отеля</h4>
+                            <h4 class="mb-0">Номерной фонд</h4>
                         </div>
                         <div class="table-responsive table-desi">
                             <table class="basic-table table table-hover">
